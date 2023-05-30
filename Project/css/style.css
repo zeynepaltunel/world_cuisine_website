@@ -1,0 +1,288 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Playfair', serif;
+    margin: 0;
+}
+
+#menu{
+    height: 80px;
+    padding: 0 20px;
+    background-color: #fffafa;
+}
+
+#logo{
+    font-size: 30px;
+    line-height: 80px;
+    color: #f7d6c3;
+    float: left;
+}
+
+nav{
+    float: right;
+    line-height: 80px;
+}
+
+nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #f7d6c3;
+}
+
+nav a:hover{
+    border-bottom: 2px solid #f7d6c3;
+}
+
+nav a:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #f7d6c3;
+}
+
+.ikon{
+    margin-right: 7px;
+    font-size: 16px;
+}
+
+#homepage{
+    height: 600px;
+    background-image: url("../images/food2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#black{
+    height: 600px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+#contents{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+}
+
+#about{
+    background-color: #fffafa;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+#h3about{
+    font-size: 55px;
+    color: #f7d6c3;
+    font-weight: 600;
+}
+
+.container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+#left{
+    float: left;
+    border-right: 3px solid #a6806ab7;
+    font-size: 30px;
+    width: 400px;
+    color:  #a6806ab7;
+}
+
+#h5left{
+    line-height: 1.6;
+    font-size: 23px;
+    font-weight: 600; 
+}
+
+#h5left, #right{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+span{
+    font-size: 50px;
+    margin-right: 7px;
+    line-height: 42px;
+    color: #f7d6c3;
+    font-weight: 600;
+    float: left;
+}
+
+#right{
+    float: right;
+    width: 750px;
+    color: #a6806ab7;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 100;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.mt100{
+    margin-top: 100px;
+}
+
+#plast{
+    color: #a6806ab7;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-top: 30px;
+    font-weight: 100px;
+}
+
+#recipes{
+    background-color: #a6806ab7;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}   
+
+.card{
+    width: 320px;
+    height: 370px;
+    border: 1px solid #f7d6c3;
+    padding: 0;
+    display: inline-block;
+}
+
+.titlecard{
+    font-size: 20px;
+    color: #fffafa;
+}
+
+.pcard{
+    color: #fffafa;
+}
+
+.card:hover{
+    border: 2px solid #564237b7;
+}
+
+#announcement{
+    background-color: #fffafa;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+} 
+
+.cardp{
+    color: #a6806ab7;
+}
+
+#contact{
+    background: url(../images/food1.jpg);
+    background-size: cover;
+    padding: 50px;
+    height: auto;
+    text-align: center;
+}
+
+#contactopac{
+    background: rgba(255, 255, 255, 0.7);
+    padding: 40px 30px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    height: 500px;
+}
+
+#formgroup{
+    width: 700px;
+    float: left;
+    height: 500px;
+    text-align: left;
+}
+
+#leftform{
+    width: 50%;
+    float: left;
+    padding-right: 5px;
+}
+
+#rightform{
+    width: 50%;
+    float: right;
+    padding-left: 5px;
+}
+
+.form-control{
+     width: 100%;
+     padding: 10px;
+     font-size: 15px;
+     line-height: 1.5;
+     color: rgb(83, 58, 28);
+     background-color: white;
+     margin: 10px;
+     border-radius: 5px;
+     border: 1px solid gray;
+}
+
+textarea{
+    font-family: Arial;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    background-color: rgb(131, 106, 75);
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    color: wheat;
+    border: 2px solid wheat;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#address{
+    width: 400px;
+    float: right;
+    padding: 30px;
+    height: 450px;
+    text-align: left;
+}
+
+#addresstitle{
+    font-size: 30px;
+    color:  rgb(131, 106, 75);
+}
+
+.addressp{
+    color: #ad9b7f;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+
+#copyright{
+    color: black;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+#up{
+    color: #ad9b7f;
+    font-size: 20px;
+    padding: 9px 12px;
+    margin-top: 20px;
+}
+
